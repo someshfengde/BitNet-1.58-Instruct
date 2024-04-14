@@ -1,8 +1,16 @@
 # BitNet-1.58-Instruct
 
-<a href="https://docs.oxen.ai/" style="padding: 2px;">
-    <img src="https://img.shields.io/endpoint?url=https://hub.oxen.ai/api/repos/ox/BitNet/badge">
-</a>
+📕 Resources.
+🔗 Blog Post: https://lnkd.in/d5YCRW4y
+🐱 GitHub Repo: https://lnkd.in/dKgjwFXk
+🐝 wandb dashboard: https://lnkd.in/de5myJ6G
+👨‍💻 Lightning Studio link: https://lnkd.in/d8Ji9FQh
+
+### What's changed in this repo. 
+* Added wandb tracking
+* Able to run over CPU and multiGPU for finetuning LLM
+* Fientuned over the mistralai data
+* Evaluated by using LLM as a judge
 
 Implementation of BitNet-1.58 instruct tuning. All data and models are versioned and stored on [Oxen.ai](https://Oxen.ai/ox/BitNet) at [ox/BitNet](https://Oxen.ai/ox/BitNet). This work builds off the pre-trained models released in the [1bitLLM/bitnet_b1_58-large](https://huggingface.co/1bitLLM/bitnet_b1_58-large) project on Hugging Face.
 
