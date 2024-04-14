@@ -1,0 +1,8 @@
+transformers
+torch
+torchvision
+torchaudio
+sentencepiece
+protobuf
+flash_attn
+trl

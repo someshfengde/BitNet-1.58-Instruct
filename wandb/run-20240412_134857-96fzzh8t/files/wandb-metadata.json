@@ -1,0 +1,129 @@
+{
+    "os": "Linux-5.15.0-1057-aws-x86_64-with-glibc2.31",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-04-12T13:48:57.863951",
+    "startedAt": "2024-04-12T13:48:57.584114",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-m",
+        "1bitLLM/bitnet_b1_58-large",
+        "-d",
+        "train_data.jsonl",
+        "-o",
+        "./results/bitnet_b1_58-large-instruct"
+    ],
+    "state": "running",
+    "program": "/teamspace/studios/this_studio/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "ip-10-192-11-98",
+    "username": "zeus",
+    "executable": "/home/zeus/miniconda3/envs/cloudspace/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2692.0634375,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3488.443,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3366.67,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2650.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 387.4823341369629,
+            "used": 43.83248519897461
+        }
+    },
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA L4",
+            "memory_total": 24152899584
+        }
+    ],
+    "memory": {
+        "total": 60.46147918701172
+    }
+}

@@ -1,0 +1,1089 @@
+metrics,guess,prompt,response,is_correct
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Here’s a recommended order to see all six of them, which comes from the Lucasfilm Story Group:
+
+Episode I: The Phantom Menace (1999)
+
+Episode II: Attack of the Clones (2002)
+
+Episode III: Revenge of the Sith (2005)
+
+Episode IV: A New Hope (1977)
+
+Episode V: The Empire Strikes Back (1980)
+
+Episode VI: Return of the Jedi (1983)
+
+I also just wanted to point out that this isn’t just a list of the movies; it’s a guide to seeing the whole “Skywalker Saga” in the right order, and that all the movies are now available on Netflix.
+🐂
+","12    Below is an instruction that describes a task....
+Name: prompt, dtype: object","12    Here’s a recommended order to see all six of t...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Sure, here are some great jazz albums to try out:
+
+Billie Holiday: Portrait of a Lady (with Sidney Bechet)
+
+Miles Davis: Kind of Blue
+
+Dizzy Gillespie: Night in Tunisia
+
+Astrud Gilberto: Getz/Gilberto
+
+Stan Getz and João Gilberto: The Girl from Ipanema
+
+Sonny Rollins: Saxophone Colossus
+
+Coltrane: Giant Steps
+
+Bobby Hutcherson: The Kinetic
+
+Billy Strayhorn: The Very Thought of You
+
+McCoy Tyner: McCoy Tyner Plays the Blues
+🐂
+","8    Below is an instruction that describes a task....
+Name: prompt, dtype: object","8    Sure, here are some great jazz albums to try o...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Go to the store and purchase corn tortillas, cheese, and chicken or beef.  Then you heat a tortilla on a frying pan, put on a layer of cheese, and a layer of chicken or beef.  Put another tortilla on top.  Serve and enjoy!
+🐂
+","91    Below is an instruction that describes a task....
+Name: prompt, dtype: object","91    Go to the store and purchase corn tortillas, c...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+IntroductionTraditional machine reading comprehension (MRC) tasks share the single-turn setting of answering a single question related to a passage. There is usually no connection between different questions and answers to the same passage. However, the most natural way humans seek answers is via conversation, which carries over context through the dialogue flow.
+To incorporate conversation into reading comprehension, recently there are several public datasets that evaluate QA model's efficacy in conversational setting, such as CoQA BIBREF0 , QuAC BIBREF1 and QBLink BIBREF2 . In these datasets, to generate correct responses, models are required to fully understand the given passage as well as the context of previous questions and answers. Thus, traditional neural MRC models are not suitable to be directly applied to this scenario. Existing approaches to conversational QA tasks include BiDAF++ BIBREF3 , FlowQA BIBREF4 , DrQA+PGNet BIBREF0 , which all try to find the optimal answer span given the passage and dialogue history.
+In this paper, we propose SDNet, a contextual attention-based deep neural network for the task of conversational question answering. Our network stems from machine reading comprehension models, but has several unique characteristics to tackle contextual understanding during conversation. Firstly, we apply both inter-attention and self-attention on passage and question to obtain a more effective understanding of the passage and dialogue history. Secondly, SDNet leverages the latest breakthrough in NLP: BERT contextual embedding BIBREF5 . Different from the canonical way of appending a thin layer after BERT structure according to BIBREF5 , we innovatively employed a weighted sum of BERT layer outputs, with locked BERT parameters. Thirdly, we prepend previous rounds of questions and answers","30    Below is an instruction that describes a task....
+Name: prompt, dtype: object","30    As the question has integrated previous uttera...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Answer the following question.
+James pays $1000 for advertising. It brought 100 customers to his site and 80% of those bought something at the store that cost $25. How much profit does he gain from the ad?
+Step-by-step reasoning process: 100 * .8 = 80 customers bought something. That means they were worth 80 * 25 = $2000. So he gained 2000 - 1000 = $1000 from the ad.
+The answer is 1000.
+
+Answer the following question.
+It costs Molly $5 per package to send Christmas gifts to her relatives by mail. She has two parents and three brothers, and each of her brothers is married with 2 children each. If she sends one package to each relative by mail, how much does it cost her to send all of the gifts by mail to her relatives, in dollars?
+Step-by-step reasoning process: Molly has two parents and three brothers, which totals 2 + 3 = 5 parents and siblings. Since each brother is married with 2 children, then each brother has a family containing 1 + 2 = 3 people. Thus, the families of the three brothers contain an additional 3 * 3 = 9 relatives. In total, Molly has 5 + 9 = 14 relatives. At $5 per package, Molly will spend 14 * $5 = $70 to mail the packages.
+The answer is 70.
+
+Answer the following question.
+The balance of Pam's bank account tripled during the year. At the end of the year, Pam withdrew $250. If her current balance is $950","85    Below is an instruction that describes a task....
+Name: prompt, dtype: object","85    Step-by-step reasoning process: Janeth bought ...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+We multiply both the top and bottom by the conjugate of the denominator: $$\frac{5}{2+\sqrt{6}} \cdot \frac{2-\sqrt{6}}{2-\sqrt{6}}=\frac{10-5\sqrt{6}}{4-6}=\frac{5\sqrt{6}-10}{2}$$Therefore, $A+B+C+D=5+6-10+2=\boxed{3}$.
+🐂
+","6    Below is an instruction that describes a task....
+Name: prompt, dtype: object","6    We multiply both the top and bottom by the con...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+I'm sharing a story and questions heere.Story:
+Ghost hunter Cyrus Kriticos (F. Murray Abraham) and assistant Dennis Rafkin (Matthew Lillard) lead a team on a mission to capture a spirit, called the Juggernaut, in a junkyard. Several of the men are killed during the ensuing fight, including Cyrus himself. However, the team is able to catch the ghost.Arthur Kriticos (Tony Shalhoub), a mathematician who is also a widower, is informed by the estate lawyer of his uncle Cyrus, Benjamin Moss (JR Bourne), that he has inherited a mansion. Arthur and his financially insecure family plan to move into this mansion with his two children, Kathy (Shannon Elizabeth) and Bobby (Alec Roberts). Their babysitter/nanny Maggie (Rah Digga) accompanies the family.Dennis Rafkin, disguised as a power company employee, meets the family and Benjamin as they tour the mansion. The residence is made almost entirely of glass. It contains Latin phrases etched on floors and movable glass walls, along with priceless artefacts. Arthur and his family are eager about inheriting this new home, and while Arthur is discussing financial matters with the attorney, Kathy and Bobby venture off on their own to explore the mansion. After seeing several ghosts in the basement, Dennis frantically runs upstairs to warn Arthur about the home he is about to own. Benjamin assures Arthur that Dennis is crazy and should be ignored. Dennis tells Arthur that there are twelve spirits are imprisoned in the house, held captive by the spells written throughout the residence.Benjamin Moss is seen sneaking off to collect a valise of","24    Below is an instruction that describes a task....
+Name: prompt, dtype: object","24    1. twelve\n2. Arthur Kriticos\n3. Glass.\n4. J...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+SEA LEGSBy FRANK QUATTROCCHI Illustrated by EMSH [Transcriber's Note: This etext was produced from Galaxy Science Fiction November 1951.
+ Extensive research did not uncover any evidence that the U.S. copyright on this publication was renewed.]Rootless and footloose, a man in space can't help but dream of coming home. But something nobody should do is bet on the validity of a homesick dream!
+Flight Officer Robert Craig surrendered the tube containing his service record tapes and stood waiting while the bored process clerk examined the seal.
+ ""Your clearance,"" said the clerk.
+ Craig handed him a battered punch card and watched the man insert it in the reproducer. He felt anxiety as the much-handled card refused for a time to match the instrument's metal contact points. The line of men behind Craig fidgeted.
+ ""You got to get this punched by Territorial,"" said the clerk. ""Take it back to your unit's clearance office."" ""Look again, Sergeant,"" Craig said, repressing his irritation.
+ ""It ain't notched."" ""The hell it isn't."" The man examined the card with squinting care and nodded finally. ""It's so damn notched,"" he complained. ""You ought to take care of that card; can't get on without one."" Craig hesitated before moving.
+ ""Next,"" said the clerk, ""What you waiting for?"" ""Don't I take my 201 file?"" ""We send it on ahead. Go to Grav 1 desk."" A murmur greeted the order. Craig experienced the thrill of","29    Below is an instruction that describes a task....
+Name: prompt, dtype: object","29    The man is a customs official.
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+AI/ML can be used for multiple aspects of Data Engineering including but not limited to data pipeline automation, automated anomaly detection frameworks, automated data quality improvement, table relationship detection (Primary Key/Foreign Key relationship detection), automated semantic data model creation and mapping, etc. Each one of these applications has the potential for significant impact in the Data Engineering field whether in terms of people hours saved through automation, the feasibility of capabilities which were not economically viable before because of labor costs or other factors.
+🐂
+","32    Below is an instruction that describes a task....
+Name: prompt, dtype: object","32    AI/ML can be used for multiple aspects of Data...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Reduce the following transcript to its key points:
+Scene opens to Seth staring at Ryan intently, holding up a candy cane and a menorah.
+Seth: So, what's it going to be, huh? You want your menorah or a candy cane, hmm? Christmas or Hanukkah?
+Ryan: Um... I'm not-
+Seth: Ah! Don't worry about it buddy, because in this house, you don't have to choose. Allow me to introduce to you a little something that I like to call... Chrismukkah.
+Ryan: Chrismukkah?
+Seth: That's right. It's the new holiday, Ryan, and it's sweeping the nation. Sandy and Kirsten walk in, carrying a Christmas tree.
+Sandy: Hey fellows. We go the tree.
+Seth: Or atleast the living room.
+Sandy: Guys, a little help? Ryan walks over to help Sandy.
+Seth: I saved a spot for you right there. Put your muscle into it. Excellent. To the right a little. To the right, don't hurt it. Those needles are brittle. That's perfect. (Starts clapping) You guys... you guys... ""A+"". ""A+"". I love the holidays. I love them all.
+Kirsten: We didn't really know how to raise Seth.
+Seth: Yeah, so I raised myself, and in doing so, I created the greatest super holiday known to mankind, drawing on the best that Christianity and Judaism have to offer.
+Ryan: And you call it Chrismukkah.","98    Below is an instruction that describes a task....
+Name: prompt, dtype: object","98    Kirsten learns something about her father that...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Many edible plants grow well in Maryland without human intervention including chickweed, purslane, dandelion, and lamb's quarters. All of these plants may volunteer in a typical suburban yard or empty lot and will grow without being watered or tended to. They are all edible and nutritious.
+🐂
+","9    Below is an instruction that describes a task....
+Name: prompt, dtype: object","9    Many edible plants grow well in Maryland witho...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Well there’s a lot of cultural factors, but I think an important difference is the prevalence of obesity in the West versus Asia.  In 2016, according to the CDC, about 35% of Americans are obese, while the number in Japan is only 4.8%.  In addition to food choices, I think the primary factor there is that Westernized diets are higher in calories, and people tend to eat much larger portions and far less vegetables than people in Asian countries.
+🐂
+","83    Below is an instruction that describes a task....
+Name: prompt, dtype: object","83    Well there’s a lot of cultural factors, but I ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+please read the story that follows carefully and then answer the questions at the end.\story: Widowed Lala Yodhraj Bhalla (Anupam Kher) lives in a palatial house with his daughter, Suman (Hema Malini), and son, Shashiraj (Raj Babbar). Both of his children are of marriageable age. He gets a shock when he finds out that Suman is in love with a lowly employee by the name of Ajit Bhardwaj (Rajesh Khanna), and refuses to give his consent for their marriage. Suman and Ajit get married in a simple ceremony, and Suman moves to Ajit's house, where she soon gets pregnant and gives birth to a son who they name Vikram alias Vicky (Rishi Kapoor). Yodhraj gets another shock when Shashiraj tells him that he would like to marry Rita (Moushmi Chatterjee), who comes from a poor family. Yodhraj asks Shashiraj to go for a trip out of town in his private air-plane. With Shashiraj out of the way, Yodhraj goes to a pregnant Rita and asks her never to see Shashiraj again and leaves a blank cheque with her. The very same day, Shashiraj is killed when his plane crashes; a guilt-ridden Suman moves back into her father's house along with Vikram, leaving Ajit alone and devastated; and a lone Rita gives birth to a young son named Arjun (Anil Kapoor). Twenty five years later, Yodhraj still lives in his palatial house with Suman and Vikram. A grown-up Arjun lives with his adopted father Inder Sen","39    Below is an instruction that describes a task....
+69    Below is an instruction that describes a task....
+Name: prompt, dtype: object","39    1. Elizabeth\n2. Yes\n3. Elizabeth\n4. Franken...
+69                    1. Vikram\n2. Lala Yodhraj Bhalla
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+please answer the questions written at the end of the summary.
+\summary:Amistad is the name of a slave ship traveling from Cuba to the United States in 1839. It is carrying African people as its cargo. As the ship is crossing from Cuba to the United States, CinquÃ©, a leader of the Africans, leads a mutiny and takes over the ship. The mutineers spare the lives of two Spanish navigators to help them sail the ship back to Africa. Instead, the navigators play out the Africans and sail north to the east coast of the United States, where the ship is stopped by the American Navy, and the 53 living Africans imprisoned as runaway slaves.
+In an unfamiliar country and not speaking a single word of English, the Africans find themselves in a legal battle. District Attorney William S. Holabird brings charges of piracy and murder. The Secretary of State John Forsyth, on behalf of President Martin Van Buren (who is campaigning for re-election), represents the claim of Queen Isabella II of Spain that the Africans are slaves and are property of Spain based on a treaty. Two Naval officers claim them as salvage while the two Spanish navigators produce proof of purchase. A lawyer named Roger Sherman Baldwin, hired by the abolitionist Tappan and his black associate Joadson (a fictional character[1]) decides to defend the Africans.
+Baldwin argues that the Africans had been captured in Africa to be sold in the Americas illegally. Baldwin proves through documents found hidden on Amistad that the African people were initially cargo belonging to a Portuguese slave ship, The Tecora. Therefore, the Africans were free citizens of another country and not slaves at all. In light of this evidence","65    Below is an instruction that describes a task....
+81    Below is an instruction that describes a task....
+95    Below is an instruction that describes a task....
+Name: prompt, dtype: object","65    he's the only experienced political candidate ...
+81    1. 1839\n2. District Attorney\n3. From Cuba to...
+95    1. Harrison Bay\n2. Christopher\n3. lighthouse...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+wwhat are some good questions to ask about:
+A robotic voice (Henry Ramer) reads the captions:Planet Earth has colonized other planets for its own purposes. We are in 2078, and Sirius 6B is one of our colonies. What we want from this planet is a new energetic material, berynium. The problem is that this material is highly polluting and radioactive. Because of the careless mining, the one Sirius 6B planet is now a ravaged desertic land, not fertile as it used to be. NEB Corporation, a monopoly, have controlled all mining operations in this planet and all the Solar System. The Alliance, a mixture of a union and a series of scientists, tried to stop NBE from destroying the planet. NBE and The Alliance started a war in Sirius 6B, which also created a new Cold War in Earth. However, physical or nuclear war have only happened at Sirius 6B. Thousands of civilians died in this planet, and also they have the problem of radioactive clouds caused by the berynium. After 10 all-out war years, only a handful of survivors remain in the planet.The mining town looks like a dusty ghost town. Miners are playing for cigarettes. Through CCTV, they see somebody stumbling closer. That person, a NEB soldier (Sylvain Massé), looks terrified. Lieutenant Landowska (Liliana Komorowska) wonders what he's doing moving closer without even attempting to hide, and wants Captain Joseph ""Joe"" Henderson (Peter Weller) to be called. There is a moment when this person stops. Something moves","77    Below is an instruction that describes a task....
+Name: prompt, dtype: object","77    - Who plays Ross?\n- What caused the planet Si...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+It’s a common condition that people who don’t wash their hands properly and then touch their face are more likely to get, according to a study of 2,000 people.
+🐂
+","42    Below is an instruction that describes a task....
+Name: prompt, dtype: object","42    It’s a common condition that people who don’t ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Question: Gondor is a technician, he earns $10 from repairing a phone and $20 from repairing a laptop. If he was able to repair 3 phones last Monday, 5 phones last Tuesday, 2 laptops on Wednesday, and 4 laptops last Thursday, how much does he earn in total?
+Answer: Gondor was able to repair a total of 3 + 5 = 8 phones from Monday to Tuesday. And the total amount he earned is $10x8 = $80. He was able to repair a total of 2 + 4 = 6 laptops from Wednesday to Thursday. So, the total amount he earned is $20x6 = $120. Therefore, the total amount he earned is $120 + $80 = $200. The answer is 200.
+
+Question: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+Answer: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7 = 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. The answer is 770.
+
+Question: Arthur has 3 dogs. They eat an average of 15","57    Below is an instruction that describes a task....
+Name: prompt, dtype: object","57    She planted eight trees. This means she used h...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+[Question]Carla works at a food bank and she currently has stocked up 2000 cans of food. One day, 500 people showed up and took 1 can of food each. Carla had to then restock 1500 more cans to keep up with demand. The next day, 1000 people showed up and took 2 cans of food each. Carla restocked again with 3000 cans of food this time. How many cans of food did Carla give away?
+[Answer]One day, 2000 - 500 = 1500 cans of food were left. It was then restocked to 1500 + 1500 = 3000 cans. 1000 * 2 = 2000 cans were taken the next day. 3000 - 2000 = 1000 cans were left. It was restocked once more to 1000 + 3000 = 4000 cans of food. Carla gave away 500 + 2000 = 2500 cans of food. The answer is 2500.
+Q: Dino does some online gig work for a living. He works 20 hours a month making $10 an hour. He works 30 hours a month making $20 an hour. He works 5 hours a month making $40 an hour. He pays $500 a month in expenses. How much money does Dino have left at the end of the month?
+A: Dino works 20 hours at a rate of $10 an hour, which means","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+From the passage note down the various celebrities who joined TikTok . List the results in comma separated format.
+ByteDance planned on Douyin expanding overseas. The founder of ByteDance, Zhang Yiming, stated that ""China is home to only one-fifth of Internet users globally. If we don't expand on a global scale, we are bound to lose to peers eyeing the four-fifths. So, going global is a must.""[20]
+
+The app was launched as TikTok in the international market in September 2017.[21] On 23 January 2018, the TikTok app ranked first among free application downloads on app stores in Thailand and other countries.[22]
+
+TikTok has been downloaded more than 130 million times in the United States and has reached 2 billion downloads worldwide,[23][24] according to data from mobile research firm Sensor Tower (those numbers exclude Android users in China).[25]
+
+In the United States, celebrities, including Jimmy Fallon and Tony Hawk, began using the app in 2018.[26][27] Other celebrities, including Jennifer Lopez, Jessica Alba, Will Smith, and Justin Bieber joined TikTok as well as many others.[28]
+
+In January 2019, TikTok allowed creators to embed merchandise sale links into their videos.[29]
+
+On 3 September 2019, TikTok and the U.S. National Football League (NFL) announced a multi-year partnership.[30] The agreement occurred just two days before","89    Below is an instruction that describes a task....
+Name: prompt, dtype: object","89    Jimmy Fallon, Tony Hawk, Jennifer Lopez, Jessi...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The given SQL code shows the number of distinct publication dates.
+🐂
+","5    Below is an instruction that describes a task....
+Name: prompt, dtype: object","5    The given SQL code shows the number of distinc...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Setting $x = 79$ and $y = 1,$ we get
+\[f(79) = 79f(1) = 79 \cdot 25 = \boxed{1975}.\]
+🐂
+","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Question: During the soccer match, The Kickers scored 2 goals in the first period and twice that amount in the second period. The other team, The Spiders, scored half the amount that The Kickers scored in the first period and twice the amount that The Kickers scored in their second period. What is the total amount of goals both teams scored?
+Answer: The Kickers scored twice as many as 2 goals in the second period, so 2 * 2 = 4 goals. The Spiders scored half as many as The Kickers' 2 goals from the 1st period so .5 * 2 = 1 goal in the first period. The Spiders scored twice as many as The Kickers' 4 goals from the second period, so 2 * 4 = 8 goals in the second period. Together, they scored 2 + 4 + 1 + 8 = 15 goals total. The answer is 15.
+[Question]Ms. Cole teaches math in three levels of classes in her school. There are four times as many students in Ms. Cole's fourth-level math class as in her sixth-level math class. The number of students in her seventh-level math class is twice that in the fourth-level math class. If Ms. Cole's sixth-level class has 40 students, how many math students does Ms. Cole teach?
+[Answer]Since Ms. Cole's sixth - level math class has 40 students and four times as many students in her fourth - level class, there are 4 * 40 = 160 in her fourth - level math class. For the two levels, Ms. Cole teaches math to 160 + 40 = 200 students","0    Below is an instruction that describes a task....
+Name: prompt, dtype: object","0    He makes it in batches of 1.5 * 128 = 192 ounc...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Given these paragraphs about Large language models, what is hallucination?
+A large language model (LLM) is a language model consisting of a neural network with many parameters (typically billions of weights or more), trained on large quantities of unlabelled text using self-supervised learning. LLMs emerged around 2018 and perform well at a wide variety of tasks. This has shifted the focus of natural language processing research away from the previous paradigm of training specialized supervised models for specific tasks.
+
+Properties
+Though the term large language model has no formal definition, it often refers to deep learning models having a parameter count on the order of billions or more. LLMs are general purpose models which excel at a wide range of tasks, as opposed to being trained for one specific task (such as sentiment analysis, named entity recognition, or mathematical reasoning). The skill with which they accomplish tasks, and the range of tasks at which they are capable, seems to be a function of the amount of resources (data, parameter-size, computing power) devoted to them, in a way that is not dependent on additional breakthroughs in design.
+
+Though trained on simple tasks along the lines of predicting the next word in a sentence, neural language models with sufficient training and parameter counts are found to capture much of the syntax and semantics of human language. In addition, large language models demonstrate considerable general knowledge about the world, and are able to ""memorize"" a great quantity of facts during training.
+
+Hallucinations
+Main article: Hallucination (artificial intelligence)
+In artificial intelligence in general, and in large language models in particular, a ""hallucination"" is a confident response that does not seem to be justified by the model's training data.
+
+Emergent abilities
+
+","84    Below is an instruction that describes a task....
+Name: prompt, dtype: object","84    In artificial intelligence in general, and in ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+A rotation by 480 degrees is the same as one by $480 - 360 = 120$.  The first $40$ degrees of this rotation will be used to decrease the angle $ACB$ to $0$ degrees, leaving $80$ unused degrees, so our answer is $\boxed{80}$ degrees.
+🐂
+","23    Below is an instruction that describes a task....
+Name: prompt, dtype: object","23    A rotation by 480 degrees is the same as one b...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Insects have always been an important part of the diet in some regions, particularly meat-based dishes, like soups, but also vegetables and sides like pickles.  
+Some people claim that eating insects is good for you, and they recommend the practice.  
+Others claim that it's not so healthy, and that if you're eating a lot of bugs, you might want to switch to a more vegetable-based diet.
+🐂
+","74    Below is an instruction that describes a task....
+Name: prompt, dtype: object","74    Insects have always been an important part of ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+pleaseread:
+Christian Martin, a modest accountant in a large firm owned by Bertrand Barnier, surprises his boss by asking him for a 100% increase in his wages. Martin is on the point of proposing to a girl and doesn't want to ask for her hand in marriage while making a lowly accountant's salary.
+After Barnier refuses to give him the raise, Martin tells him that he's stolen more than sixty million francs from him by falsifying the firm's accounting records. When Barnier threatens to report this to the police, Martin points out that as a consequence of the fraud Barnier has now submitted false income statements to the tax office, a serious crime. Barnier has no choice but to give in to blackmail and he agrees to give Martin the raise and name him vice-president of the firm.
+Martin then reveals that the young woman whom he intends to marry is Barnier's daughter. In order to recover his sixty million francs, Barnier asks Martin to give back the stolen monies so that he can give them to his daughter as a wedding present.
+Barnier learns that Martin converted the sum into jewelry and the jewels are in a bank. He tells Martin to get the jewelry, but Martin refuses without a signed document from Barnier stating that he will give the jewelry to his daughter as a wedding present. Barnier agrees and Martin leaves for the bank.
+While Martin is gone, Barnier talks to his daughter Colette. Without mentioning Martin, he tells her that he's opposed to her marriage which causes her to break down and cry. On the advice of her maid Bernadette, Colette lies to","93    Below is an instruction that describes a task....
+Name: prompt, dtype: object","93    1. Vendetti\n2. 250%\n3. Snaps's accountant\n4...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Yes, that’s a really common and frustrating problem! I can tell you a few things to keep in mind when your keys are missing.  First, don’t panic.  House keys are usually just lost inside a house, and they’re usually easy to find if you look carefully.  Second, make sure you know where you last had them.  If you’re sure you did have them before you left the house, check the places you would normally keep your keys and other likely locations like pockets, purses, or bags.  Third, check with neighbors to see if anyone have seen the keys.  Often, the keys will simply have been left for a neighbor or given to them by mistake.  Finally, you should change the locks on your doors if you are really concerned about security.  The locks will need to be changed at an authorized vendor, so you might want to consider this a last resort.  I hope these tips are helpful!
+🐂
+","22    Below is an instruction that describes a task....
+Name: prompt, dtype: object","22    Yes, that’s a really common and frustrating pr...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Q: A busy port has 4 cruise ships and twice as many cargo ships. The number of sailboats is 6 more than the cargo ships and seven times more than fishing boats. How many vessels are there on the water?
+A: There are 4 x 2 = 8 cargo ships. There are 8 + 6 = 14 sailboats. There are 14 / 7 = 2 fishing boats. There are 4 + 8 + 14 + 2 = 28 vessels on the water. The answer is 28.
+Question: Mrs. Lopez and her family are going to the movie theatre. Adult tickets are $11. Children’s tickets (ages 3-12) are $8. Senior citizen’s tickets (ages 60+) are $9. Mrs. Lopez needs to buy movie tickets for her husband, herself, her parents (ages 72 and 75), and her three children (ages 7, 10, 14). How much money does she need to buy everyone’s tickets?
+Answer: Mrs. Lopez needs to buy two adult tickets for $11 x 2 = $22. She needs to buy two senior citizen tickets for $9 x 2 = $18. She needs to buy three children’s tickets for $8 x 3 = $24. For everyone’s tickets, Mrs. Lopez needs to spend $22 + $18 + $24 = $64 for seven tickets. The answer is 64.
+[Question]Bonnie and Samuel went to the market together. Bonnie bought 8 apples. Samuel bought 20 more apples than Bonnie","88    Below is an instruction that describes a task....
+Name: prompt, dtype: object","88    During breakfast, Blanch has 15 - 4 = 11 slice...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+I’ll tell you about some of the nutrients in plums.  Plums are not generally very nutrient-dense.  They are high in vitamin C but have negligible iron and calcium, and relatively low magnesium and phosphorus.  They are also relatively low in many other vitamins and minerals.  In particular, they are relatively low in potassium, and have relatively high sodium content.
+🐂
+","86    Below is an instruction that describes a task....
+Name: prompt, dtype: object","86    I’ll tell you about some of the nutrients in p...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+[Question]Suraya picked 12 apples more than Caleb, and Caleb picked 5 apples less than Kayla. If Kayla picked 20 apples, how many more apples did Suraya pick than Kayla?
+[Answer]Caleb picked 20 - 5 = 15 apples. Suraya picked 12 + 15 = 27 apples. Suraya picked 27 - 20 = 7 apples more than Kayla. The answer is 7.
+
+[Question]There are 24 students in the class. One-third had their school portraits taken before lunch. After lunch, but before gym class, 10 additional students had their portraits taken. After gym class, how many students have not yet had their picture taken?
+[Answer]Before lunch, 24 / 3 = 8 students were photographed. Then 8 + 10 = 18 have been photographed by gym class. So 24 - 18 = 6 remain. The answer is 6.
+
+[Question]Micah can type 20 words per minute and Isaiah can type 40 words per minute. How many more words can Isaiah type than Micah in an hour?
+[Answer]There are 60 minutes in an hour. Micah can type 20 x 60 = 1200 words in an hour. Isaiah can type 40 x 60 = 2400 words in an hour. Isaiah can type 2400 - 1200 = 1200 words more than Micah in an hour. The answer is 1200.
+
+[Question]Har","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+- React
+- Angular
+- Vue.js
+- Next.js
+- Svelte
+🐂
+","52    Below is an instruction that describes a task....
+Name: prompt, dtype: object","52    - React\n- Angular\n- Vue.js\n- Next.js\n- Svelte
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Some of the most common peer-to-peer money transfer apps in the United States are Zelle, Venmo, CashApp, PayPal, and Apple/Google Pay (depending on the type of mobile device of the user).
+🐂
+","62    Below is an instruction that describes a task....
+Name: prompt, dtype: object","62    Some of the most common peer-to-peer money tra...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The largest animal on the earth is the blue whale, which is a kind of whale. It is the largest animal in the world, and can weigh up to 150,000 kg. That’s the same as 200 African elephants, or more than 14 adult males.
+🐂
+","48    Below is an instruction that describes a task....
+Name: prompt, dtype: object","48    The largest animal on the earth is the blue wh...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Krugman's Life of Brian                                     Where it all started: Paul Krugman's                 ""The Legend of Arthur.""                                       Letter from John Cassidy                       Paul Krugman replies to John Cassidy                                       Letter from M. Mitchell Waldrop                       Paul Krugman replies to M. Mitchell Waldrop                                       Letter from Kenneth J. Arrow                                       Letter from Ted C. Fishman                                       David Warsh's July 3, 1994, Boston Globe                                                                          Letter from John Cassidy:                                       Paul Krugman loves to berate journalists for their ignorance of economics, particularly his economics, but on this occasion, I fear, his logic is more addled than usual. I am reluctant to dignify his hatchet job with a lengthy reply, but some of his claims are so defamatory that they should be addressed, if only for the record.          1) Krugman claims that my opening sentence--""In a way, Bill Gates's current troubles with the Justice Department grew out of an economics seminar that took place thirteen years ago, at Harvard's John F. Kennedy School of Government""--is ""pure fiction."" Perhaps so, but in that case somebody should tell this to Joel Klein, the assistant attorney general in charge of the antitrust division. When I interviewed Klein for my piece about the Microsoft case, he singled out Brian Arthur as the economist who has most influenced his thinking about the way in which high-technology markets operate. It was Klein's words, not those of Arthur, that prompted me to use Arthur in the lead of the story.          2) Krugman wrote: ""Cassid","16    Below is an instruction that describes a task....
+Name: prompt, dtype: object","16    Ireland
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+An article is given below. It will be followed by a question that is based on it. Please answer the question. 
+
+Article: IntroductionProcessing of free-text clinical records play an important role in computer-supported medicine BIBREF0 , BIBREF1 . A detailed description of symptoms, examination and an interview is often stored in an unstructured way as free-text, hard to process but rich in important information. Some attempts of processing medical notes exist for English, while for other languages the problem is still challenging BIBREF2 .
+A clustering task is easier for structured data such as age, sex, place, history of diseases, ICD-10 code etc. (an example of patients clustering based only on their history of diseases is BIBREF3 ), but it is far from being solved for unstructured free-texts.
+The clustering of visits has many applications. If we are able to group visits into clusters based on interview with a patient and medical examination then (1) we can follow recommendations that were applied to patients with similar visits in the past to create a list of possible diagnoses, (2) reveal that the current diagnosis is unusual, (3) identify subsets of visits with the same diagnosis but different symptoms.
+A desired goal in the clustering is to divide patients into groups with similar properties. In the case of clustering hospitalized patients one of the most well-known examples are Diagnosis Related Groups BIBREF4 which aim to divide patients into groups with similar costs of treatment. Grouping visits of patients in health centers is a different issue. Here most of the information is unstructured and included in the visit's description written by a doctor: the description of the interview with the patient and the description of a medical exam","17    Below is an instruction that describes a task....
+96    Below is an instruction that describes a task....
+Name: prompt, dtype: object","17                                                   No
+96    CBOW and Skip-gram methods in the FastText too...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+please read the article thagt follows carefullyand then answer the question at the end.
+article: IntroductionOpen information extraction (IE, sekine2006demand, Banko:2007:OIE) aims to extract open-domain assertions represented in the form of $n$ -tuples (e.g., was born in; Barack Obama; Hawaii) from natural language sentences (e.g., Barack Obama was born in Hawaii). Open IE started from rule-based BIBREF0 and syntax-driven systems BIBREF1 , BIBREF2 , and recently has used neural networks for supervised learning BIBREF3 , BIBREF4 , BIBREF5 , BIBREF6 , BIBREF7 .
+A key step in open IE is confidence modeling, which ranks a list of candidate extractions based on their estimated quality. This is important for downstream tasks, which rely on trade-offs between the precision and recall of extracted assertions. For instance, an open IE-powered medical question answering (QA) system may require its assertions in higher precision (and consequently lower recall) than QA systems for other domains. For supervised open IE systems, the confidence score of an assertion is typically computed based on its extraction likelihood given by the model BIBREF3 , BIBREF5 . However, we observe that this often yields sub-optimal ranking results, with incorrect extractions of one sentence having higher likelihood than correct extractions of another sentence. We hypothesize this is due to the issue of a disconnect between training and test-time objectives. Specifically, the system is trained solely to raise likelihood of gold-standard extractions, and during training the model is not aware of its test-time behavior of ranking a set of system-","64    Below is an instruction that describes a task....
+Name: prompt, dtype: object","64    No reliability diagrams are provided and no ex...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+i'm sharing a sttory and a wuestion here. story:
+One can't be too cautious about the   people one meets in Tangier. They're all   weirdies of one kind or another.
+   Me? Oh,I'm A Stranger Here MyselfBy MACK REYNOLDSThe Place de France is the town's hub. It marks the end of Boulevard Pasteur, the main drag of the westernized part of the city, and the beginning of Rue de la Liberté, which leads down to the Grand Socco and the medina. In a three-minute walk from the Place de France you can go from an ultra-modern, California-like resort to the Baghdad of Harun al-Rashid.
+ It's quite a town, Tangier.
+ King-size sidewalk cafes occupy three of the strategic corners on the Place de France.
+ The Cafe de Paris serves the best draft beer in town, gets all the better custom, and has three shoeshine boys attached to the establishment. You can sit of a sunny morning and read the Paris edition of the New YorkHerald Tribunewhile getting your shoes done up like mirrors for thirty Moroccan francs which comes to about five cents at current exchange.
+ You can sit there, after the paper's read, sip your expresso and watch the people go by.
+ Tangier is possibly the most cosmopolitan city in the world.
+ In native costume you'll see Berber and Rif, Arab and Blue Man, and occasionally a Senegalese from further south. In European dress you'll see Japs and Chinese, Hindus and Turks, Levantines and Filipinos, North Americans and","27    Below is an instruction that describes a task....
+Name: prompt, dtype: object","27    Laissez-faire
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The most common stuffing is a mixture of dried breadcrumbs and some kind of liquid, often chicken broth.
+🐂
+","41    Below is an instruction that describes a task....
+Name: prompt, dtype: object","41    The most common stuffing is a mixture of dried...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Financial instruments are monetary contracts between parties. They can be created, traded, modified and settled. They can be cash (currency), evidence of an ownership interest in an entity or a contractual right to receive or deliver in the form of currency (forex); debt (bonds, loans); equity (shares); or derivatives (options, futures, forwards).
+
+International Accounting Standards IAS 32 and 39 define a financial instrument as ""any contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity"".
+
+Financial instruments may be categorized by ""asset class"" depending on whether they are equity-based (reflecting ownership of the issuing entity) or debt-based (reflecting a loan the investor has made to the issuing entity). If the instrument is debt it can be further categorized into short-term (less than one year) or long-term. Foreign exchange instruments and transactions are neither debt- nor equity-based and belong in their own category.
+🐂
+","58    Below is an instruction that describes a task....
+Name: prompt, dtype: object","58    Financial instruments are monetary contracts b...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Twenty-one year-old Chris McCormick (Margaux Hemingway) is a top model for a company selling lipstick. McCormick has responsibility for her 14 year-old sister Kathy (Mariel Hemingway) as their parents were killed in a car crash. They share an apartment and Kathy attends a private, Catholic school.Kathy invites her handsome, young music teacher, Gordon Stuart (Chris Sarandon) to come to one of Chris's photo shoots along the ocean because she wants her older sister to hear his somewhat avant garde musical compositions. The shoot runs long, so Chris does not have a chance to hear it, but arrangements are made for him to stop by her apartment the next day to play it for her.The next day, Stuart arrives at the apartment, but Chris has forgotten the appointment and this causes her to greet him fresh out of the shower dressed in nothing but a robe. Stuart obviously hopes that if she likes his music she might be able to use some of her musical connections to help him. While he is playing a selection from his tape recorder (the composition uses a lot of environmental sounds with electronic synthesizers) Chris is interrupted with a phone call from her boyfriend Steve Edison (Perry King) and retreats to her bedroom.The interruption and Chris's apparent apathy toward his music enrages Stuart and he enters her bedroom smashing things and hitting her. He then throws her naked across her four poster bed and secures her spread-eagle on her stomach with silk scarves to the posts and sodomizes her.Toward the end of the rape Chris has stopped struggling so when little sister Kathy arrives home from school she enters the apartment and hears nothing","34    Below is an instruction that describes a task....
+Name: prompt, dtype: object","34    - Who is the prosecutor?\n- What does Chris us...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+please answer the questions following the stoey as concisely as poxssible. 
+\story:
+For several generations the Parks family lived on a quiet hillside where Katelyn's grandfather and her father (Mike Daly) were keepers to the town's lighthouse. At the age of ten, Katelyn watched her mom enter the basement in their lighthouse home where minutes later she was brutally beaten and found dying on the floor. Her father, Christopher (Mike Daly), was arrested and convicted for the killing, and Katelyn placed in foster care out of town. The murder drove Christopher into madness and he was sentenced to a mental institution, where he later died. Katelyn never had a chance to speak to her father since that horrible night.
+Twenty years later, Katelyn (Lindy Booth) receives a mysterious letter which brings her back to the lighthouse home she swore she would never return to again. Maine coastal town Harrison Bay is broke, so deputy mayor Drew Cabot (James Thomas) arranges a deal with a contractor to develop the abandoned lighthouse for tourism. Father Hendry (Lawrence Dane) fails to convince the town council to veto the project. The town wants to open the lighthouse back up but someone from Katelyn's foggy past warns her to stop them! What they don't tell her is ""why"". Katelyn is forced to confront the evil that lurks within the lighthouse when some of the developers slowly begin to disappear. What she discovers is a family secret long buried by her grandfather. She must now unearth the truth and find a way to stop the nightmare which surrounds the lighthouse.
+","65    Below is an instruction that describes a task....
+81    Below is an instruction that describes a task....
+95    Below is an instruction that describes a task....
+Name: prompt, dtype: object","65    he's the only experienced political candidate ...
+81    1. 1839\n2. District Attorney\n3. From Cuba to...
+95    1. Harrison Bay\n2. Christopher\n3. lighthouse...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Some shows your child might enjoy are Daniel Tiger’s Neighborhood, Dora the Explorer, and Thomas and Friends.
+🐂
+","79    Below is an instruction that describes a task....
+Name: prompt, dtype: object","79    Some shows your child might enjoy are Daniel T...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The chimes of a grand clock echoed across the water, signaling that it was 2 p.m. Despite the chilly winter weather, a large crowd gathered in front of the New York Stock Exchange building to witness the procession of the troubadours of capitalism as they carried the precious metal symbol of the country’s economic power dramatically up the steps of the landmark structure.  Amid celebration and dancing, the rejoicing of a day of prosperity turned to stunned silence at the onset of a financial crisis that would shake investor confidence and ultimately rung the death knell for the celebrated financial system. 
+(from  https://www.nytimes.com/2013/11/20/business/20econscene.html,  copyright NYT Inc.
+🐂
+","1    Below is an instruction that describes a task....
+Name: prompt, dtype: object","1    The chimes of a grand clock echoed across the ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The Teenage Mutant Ninja Turtles were originally developed as an indie comic series by writer/artist Kevin Eastman and artist Peter Laird in 1984, and quickly became a phenomenon with many more books and toys and television shows and movies.  The TMNT started out in Eastman’s drawings as “robot ninja turtles”, but their name was changed to “teenage mutant ninja turtles” by his friend Roger Rose at Marvel comics.  One of the main characters is named Michelangelo, and a few of the other characters have titles drawn from Italian Renaissance art - Raphael, Donatello, Leonardo, and Donatello, respectively.  For those who are curious, the four turtles originally were named after the band Devo, and Eastman simply changed them as part of a deal for licensing the comic.  Incidentally, I think the reason Eastman chose the Renaissance was because of his interest in Renaissance music, and Michelangelo’s artistic efforts were well-known and inspirational for him.
+🐂
+","31    Below is an instruction that describes a task....
+Name: prompt, dtype: object","31    The Teenage Mutant Ninja Turtles were original...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Here are a few suggestions:
+
+1.  Make sure you change his diaper often, even if he doesn’t seem to need it.
+
+2.  Make sure you use a quality diaper that doesn’t leak.
+
+3.  Be sure to tuck the diaper under his hips to avoid leaks.
+
+4.  If he’s having a really hard time with leaks, you could try a diaper with a better absorbency rating.
+🐂
+","78    Below is an instruction that describes a task....
+Name: prompt, dtype: object","78    Here are a few suggestions:\n\n1.  Make sure y...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The last five cities to host the Olympic Games were:
+- Tokyo, Japan (2021),
+- Rio, Brazil (2016),
+- London, England (2012),
+- Beijing, China (2008),
+- Athens, Greece (2004).
+🐂
+","44    Below is an instruction that describes a task....
+Name: prompt, dtype: object","44    The last five cities to host the Olympic Games...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Johnny Farrell (Glenn Ford) is in Buenos Aires playing dice with locals. Soon someone holds a gun to his head, but a man with a snappy cane helps him out and also tells him about a casino on the other side of town.At the casino, Johnny makes sure he looks his best and enters the gambling room. He watches a short man win with a late bet at the roulette table. He goes to the blackjack table and wins several hands after requesting each time to cut the deck. Two tough guys says the casino director wants to see him; Johnny tries to fight them, but fails. The director turns out to be the man with the cane and goes by the name of Ballin Mundson (George Macready). Johnny admits to cheating, but instead of being thrown out he manages to persuade Mundson to hire him.Soon World War II ends, and there is a party at the casino. Mundson is due to leave town and leaves Johnny in charge; they have gained each other's trust. When Mundson returns he has Johnny come to his house. Mundson has brought home a woman, Gilda (Rita Hayworth), as his wife. When Johnny and Gilda see each other it's clear that they know each other, though they don't tell Mundson. That night at the casino Johnny sees the man from earlier winning at roulette again in suspicious manner and learns that it is Mundson's way of bribing those that allow his casino to continue despite gambling being illegal.Johnny has dinner with Mundson and Gilda. When Mundson leaves the table to meet with some German men, Johnny blames Gilda for marrying Mundson for the money. Gilda d","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+One idea is to go to a local river or pond, and have someone baptize you in the water.  This is a traditional way of being baptized, and is actually still pretty popular today.  It also offers the possibility of getting wet, and in some cases of getting a little chilly.
+🐂
+","33    Below is an instruction that describes a task....
+Name: prompt, dtype: object","33    One idea is to go to a local river or pond, an...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Question: The cafe has 16 chefs and 16 waiters. If 6 chefs and 3 waiters drop out, how many chefs and waiters are left?
+Answer: There are 16 chefs - 6 chefs = 10 chefs left. There are 16 waiters - 3 waiters = 13 waiters left. In total there are 10 chefs + 13 waiters = 23 chefs and waiters left. The answer is 23.
+[Question]Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
+[Answer]He is able to carry 3 pounds of watermelon, grapes, and oranges because1 + 1 + 1 = 3. He can buy 17 pounds of apple because20 - 3 = 17. The answer is 17.
+Q: An aqua park charges $12 admission and $6 for a tour. A group of 10 people goes to the aquarium and takes the tour; while a group of 5 people only goes to the aquarium. How much does the aqua park earn?
+A: A group of 10 people is charged $12 + $6 = $18 each. So, 10 people pay $18 x 10 = $180. A group of 5 people pays $12 x 5 = $60 for the admission. Thus, the aqua park earns a total of $180 + $60 = $240.","55    Below is an instruction that describes a task....
+Name: prompt, dtype: object","55    Elysse and her brother can carry 3 x 2 = 6 bag...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+please read the story that follows carefulyl and then answer the questionsat the end.\story: The movie opens with text over a red background that reads, ""More than a hundred years ago, in a mountain village in Switzerland, lived a man whose strange experiments with the dead have since become legend. The legend is still told with horror the world over...It is the legend of..."" A clever segway into the title: The Curse of Frankenstein. Credits follow.A man on horseback approaches a prison in the mountains along a narrow pathway. A church bell chimes the hour as a man opens the gate for the rider. He is a priest (Alex Gallier). He is escorted by the Warder (Michael Mulcaster) to see Baron Victor Frankenstein (Peter Cushing). The warder explains that the prisoner is dangerous. The Baron wishes to see the priest because he thinks he can trust the man with his story. He starts his story, ""I suppose it was when I was a boy at school. I always had a brilliant intellect. When my mother died, I inherited the Frankenstein fortune.""The Young Baron (Melvyn Hayes) is escorting his extended family out of his house after his mother died. His uncle (Raymond Ray) leads the family delegation. Aunt Sophie (Noel Hood) and her daughter, young Elizabeth (Sally Walsh) stay behind. Aunt Sophie wants reassurance her allowance will continue uninterrupted. After confirming the money will continue, Victor quickly escorts the two relatives out the door. As they are leaving, a dapper gentleman in a brown top hat arrives. Paul Krempe (Robert Urquhart) walks into the house and presents himself to the new, but very young, Baron. He had corresponded with the Baron","39    Below is an instruction that describes a task....
+69    Below is an instruction that describes a task....
+Name: prompt, dtype: object","39    1. Elizabeth\n2. Yes\n3. Elizabeth\n4. Franken...
+69                    1. Vikram\n2. Lala Yodhraj Bhalla
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Red Light Therapy is good for anti-aging as well as other benefits. It has been shown to increase the amount of collagen your body produces, thus helping to decrease fine lines and wrinkles. Additionally, it can help reduce the appearance of scars and stretch marks. It's easy, painless and can even be done at home in as little as 3-10 minutes each day.
+🐂
+","92    Below is an instruction that describes a task....
+Name: prompt, dtype: object","92    Red Light Therapy is good for anti-aging as we...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Person 2 tells Person 1 Person 2 usually fishes near a lake. Person 1 wants to go fishing but has left the equipment at home.
+🐂
+","61    Below is an instruction that describes a task....
+Name: prompt, dtype: object","61    Person 2 tells Person 1 Person 2 usually fishe...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Sure, Dhokar Dalna is a traditional Bangladeshi one-pot dish made with lentils, tomatoes, chili, and spices. The components are ground together into a solid mixture that is then cooked until the lentils break down and the sauce thickens. Here’s a recipe for Dhokar Dalna:
+
+Ingredients
+
+-2 Tbsp. ghee (or use more coconut oil)
+-1 cup washed and drained yellow lentils (dhokar dal)
+-1 tsp. turmeric powder
+-1 tsp. whole cumin seeds
+-1 tsp. fenugreek seeds
+-1 tsp. ground black pepper
+-2 medium onions, diced
+-2-3 Tbsp. chili powder
+-1 tsp. garam masala
+-2 cloves garlic, diced
+-1 tsp. turmeric powder
+-1 tsp. ground black pepper
+-1 cup diced tomatoes
+
+Method
+
+-Heat ghee in a pan. Add cumin and fenugreek seeds, and cook until fragrant (about 30 seconds).
+
+-Add onions and cook until translucent. Add spices and cook until onions are soft.
+
+-Add the lentils and enough water to cover
+🐂","68    Below is an instruction that describes a task....
+Name: prompt, dtype: object","68    Sure, Dhokar Dalna is a traditional Bangladesh...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Machine learning is a branch of artificial intelligence (AI) and computer science that focuses on using data and algorithms to imitate how humans learn, gradually improving its accuracy.
+🐂
+","11    Below is an instruction that describes a task....
+Name: prompt, dtype: object","11    Machine learning is a branch of artificial int...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Give me a brief summary of the following text:
+Dwight: [as elevator door closes] Hold it!
+Creed: [notices something new about Dwight] New glasses.
+[SCENE_BREAK]
+Erin: Dwight. What a ridiculous, fancy clown you are.
+Dwight: I am dressed according to the Schrute codes of mourning. My aunt Shirley has died.
+Pam: Oh, Dwight. I'm so sorry. Were you guys close?
+Dwight: I would say that she raised me, but let's not kid each other. I raised myself. She was, however, the closest thing I had to a mother.
+[SCENE_BREAK]
+Dwight: My actual mother was very cold and distant. I'd say she was the closest thing I had to an aunt.
+[SCENE_BREAK]
+Jim: My condolences.
+Dwight: Keep them.
+Jim: OK. Now, what do we got in these two pails?
+Dwight: In keeping with Schrute custom, I will either invite you to Saturday's funeral by sprinkling red, fertile dirt in your face. Or, I will ask you to keep a respectful distance during my time of grief, with a dusting of black, slightly acidic soil.
+Erin: [after Dwight tosses dirt on her face] What color is it?
+Phyllis: It looks pretty black.
+Kevin: [after Dwight tosses dirt in his face] Yep. Acidic, all right.
+Oscar: [while Dwight prepares","66    Below is an instruction that describes a task....
+Name: prompt, dtype: object","66    Oscar attends the funeral of Dwight's Aunt Shi...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Q: It takes Matt 2 minutes per problem to do his math homework with a calculator and 5 minutes per problem without a calculator. If Matt's assignment has 20 problems, how much time will using a calculator save?
+A: First find the time difference per problem: 5 minutes / problem - 2 minutes / problem = 3 minutes / problem. Then multiply that number by the number of problems to find the total time difference: 3 minutes / problem * 20 problems = 60 minutes. The answer is 60.
+Question: Bobby wanted pancakes for breakfast. The recipe on the box makes 21 pancakes. While he ate 5 pancakes, his dog jumped up and was able to eat 7 before being caught. How many pancakes does Bobby have left?
+Answer: Bobby ate 5 pancakes and his dog ate 7 so 5 + 7 = 12. The recipe makes 21 pancakes and 12 were eaten so 21 - 12 = 9 pancakes were left. The answer is 9.
+[Question]A new book sold 15 copies at the bookstore on Wednesday. On Thursday the book sold three times that many copies. On Friday the book sold one-fifth the number of copies it did on Thursday. How many copies of the book did the bookstore sell by Friday?
+[Answer]On Thursday 15 * 3 = 45 books were sold. On Friday 45 / 5 = 9 books were sold. Adding up all three days 15 + 45 + 9 = 69 books were sold by Friday. The answer is 69.
+Q: Marissa","19    Below is an instruction that describes a task....
+Name: prompt, dtype: object","19    The pasta is $1.00, the sauce is $2.00 and the...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Paleontology differs from archaeology in that archaeology includes the study of anatomically modern humans whereas paleontology does not.
+🐂
+","71    Below is an instruction that describes a task....
+Name: prompt, dtype: object","71    Paleontology differs from archaeology in that ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Chicago is one of the best cities in the USA, chicago is known for its architecture. There are lot of fun things to do in and around downtown chicago. Chicago downtown is also known for its best food, you will have option of variety of food when you walk around downtown. Would surely recommend doing the architecture boat ride on the chicago river
+🐂
+","26    Below is an instruction that describes a task....
+Name: prompt, dtype: object","26    Chicago is one of the best cities in the USA, ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Television are in almost every home in the United States today.  Currently 97% of all US households have an average of 2-3 televisions per home.  We use TV as a communication tool to learn what is going on around us in our communities, outside of our communities, and all around the world.  It is a way for us to stay connected on current events and get prepared and be safe due to forecasted natural disasters.  We use television to even find missing persons, learn who to donate to for good causes, and stay up to date with what is going on in the political arena.
+🐂
+","80    Below is an instruction that describes a task....
+Name: prompt, dtype: object","80    Television are in almost every home in the Uni...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+i'm sharing an article and a question here. article:
+IntroductionEmotions are a central component of our existence as human beings, and are manifested by physiological and psychological changes that often affect behavior and action. Emotions involve a complicated interplay of mind, body, language, and culture BIBREF0.
+Detecting and recognizing emotions is a difficult task for machines. Nevertheless, following the successful use of computational linguistics to analyze sentiment in texts, there is growing interest in the more difficult task of the automatic detection and classification of emotions in texts.
+The detection of emotions in text is a complicated challenge for multiple reasons: first, emotions are complex entities, and no universally-agreed upon psychological model of emotions exists. Second, isolated texts convey less information compared to a complete human interaction in which emotions can be detected from the other person's facial expressions, listening to their tone of voice, etc. However, due to important applications in fields such as psychology, marketing, and political science, research in this topic is now expanding rapidly BIBREF1.
+In particular, dialogue systems such as those available on social media or instant messaging services are rich sources of textual data and have become the focus of much attention. Emotions of utterances within dialogues can be detected more precisely due to the presence of more context. For example, a single utterance (“OK!”) might convey different emotions (happiness, anger, surprise), depending on its context. Taking all this into consideration, in 2018 the EmotionX Challenge asked participants to detect emotions in complete dialogues BIBREF2. Participants were challenged to classify utterances using Ekman's well-known theory of six basic emotions (sadness, happiness, anger","38    Below is an instruction that describes a task....
+Name: prompt, dtype: object","38    1 000 labeled dialogues for training and 240 u...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The center of the image circle is simply the center of the original circle reflected over the line $y=x$. When reflecting over this line, we swap the $x$ and $y$ coordinates. Thus, the image center is the point $\boxed{(-5, 6)}$.
+🐂
+","40    Below is an instruction that describes a task....
+Name: prompt, dtype: object","40    The center of the image circle is simply the c...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+THE GREAT NEBRASKA SEABy ALLAN DANZIG Illustrated by WOOD [Transcriber's Note: This etext was produced from Galaxy Magazine August 1963.
+ Extensive research did not uncover any evidence that the U.S. copyright on this publication was renewed.]It has happened a hundred times in the long history of Earth—and, sooner or later, will happen again!
+Everyone—all the geologists, at any rate—had known about the Kiowa Fault for years. That was before there was anything very interesting to know about it. The first survey of Colorado traced its course north and south in the narrow valley of Kiowa Creek about twenty miles east of Denver; it extended south to the Arkansas River. And that was about all even the professionals were interested in knowing. There was never so much as a landslide to bring the Fault to the attention of the general public.
+ It was still a matter of academic interest when in the late '40s geologists speculated on the relationship between the Kiowa Fault and the Conchas Fault farther south, in New Mexico, and which followed the Pecos as far south as Texas.
+ Nor was there much in the papers a few years later when it was suggested that the Niobrara Fault (just inside and roughly parallel to the eastern border of Wyoming) was a northerly extension of the Kiowa.
+ By the mid sixties it was definitely established that the three Faults were in fact a single line of fissure in the essential rock, stretching almost from the Canadian border well south of the New Mexico-Texas line.
+ It is not really surprising that it took so long to figure out the connection. The population of the states affected was in places as low as","4    Below is an instruction that describes a task....
+Name: prompt, dtype: object","4    Simply that the idea of an active volcano was ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Jack Cole (Steven Seagal) was once a government intelligence operative known as ""The Glimmer Man,"" because he could move so quickly and quietly through the jungle that his victims would only see a glimmer before they died. Having left the Glimmer Man job behind him, Colesteeped in buddhism and not used to working with othershas become a detective with the Los Angeles Police Department.Cole is partnered with Jim Campbell (Keenen Ivory Wayans), a tough, no-nonsense cop who has little patience for Cole's New Age philosophies and outsider attitude. Cole and Campbell have to set aside their differences when they're assigned to track down a serial killer called ""The Family Man,"" for his habit of killing entire households.The Family Man's latest victims turn out to be Cole's former wife Ellen and her current husband Andrew Dunleavyand Cole's fingerprints are found on Ellen's body. Cole and Campbell think that Cole's former bosses in the government may somehow be involved in the killings. Cole contacts his friend Smith (Brian Cox), unaware that he has been working with local crime boss Frank Deverell (Bob Gunton).Cole and Campbell receive a tip that leads them to Christopher Maynard (Stephen Tobolowsky), who admits that he committed the Family Man murders that happened before Cole arrived in Los Angeles. Someone else has been committing the more recent murders and making it look like Maynard's work. Cole fatally shoots Maynard in self defense.Cole, hoping to get a lead on the new killer, goes to the home of Deverell's Russian translator Celia Roslov (Susan Reno), who was a victim of the","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Ishbo (Rifkin) is the younger son of Mookoo (Carradine), the leader of a tribe of cavemen. Ishbo is smarter than most of his tribesmen, but awkward and nerdy, living in the shadow of his much more physically impressive brother Thudnik (MacArthur). He hopes to use his superior intellect to become an inventor and raise his tribe above simple sticks and stones, but due to a combination of the flimsy materials available to him and the lack of support from his tribe they always fail. Ishbo also has had a lifelong crush on his childhood friend, Fardart (Larter). Much to his dismay, immediately after he finally expresses his love to her she is ""clubbed"" by Thudnik (and all that follows in the tradition of caveman stereotypes), and eventually married to him. Ishbo himself has never clubbed a woman, having his heart set on Fardart his whole life.
+After Fardart is betrothed to Thudnik, Ishbo begins to believe that he will never club a woman. He at first is too attached to her to consider clubbing another woman, and is further discouraged after a particularly ill-fated attempt at clubbing. Ishbo becomes quite depressed, a feeling which is escalated by his failure to prove useful on a mammoth hunt. He falls into a large pile of mammoth dung, then is eaten by the mammoth, and eventually excreted (or extracted â the scene itself appears as a series of animated cave drawings) from the mammoth when it is finally killed by the rest of the tribesmen.
+During an attempt on Mookoo's life, it is revealed","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+An article is given below. It will be followed by a question that ies based on it. Please answer the question. 
+
+Article: IntroductionRecent studies in information extraction domain (but also in other natural language processing fields) show that deep learning models produce state-of-the-art results BIBREF0 . Deep architectures employ multiple layers to learn hierarchical representations of the input data. In the last few years, neural networks based on dense vector representations provided the best results in various NLP tasks, including named entities recognition BIBREF1 , semantic role labelling BIBREF2 , question answering BIBREF3 and multitask learning BIBREF4 . The core element of most deep learning solutions is the dense distributed semantic representation of words, often called word embeddings. Distributional vectors follow the distributional hypothesis that words with a similar meaning tend to appear in similar contexts. Word embeddings capture the similarity between words and are often used as the first layer in deep learning models. Two of the most common and very efficient methods to produce word embeddings are Continuous Bag-of-Words (CBOW) and Skip-gram (SG), which produce distributed representations of words in a vector space, grouping them by similarity BIBREF5 , BIBREF6 . With the progress of machine learning techniques, it is possible to train such models on much larger data sets, and these often outperform the simple ones. It is possible to use a set of text documents containing even billions of words as training data. Both architectures (CBOW and SG) describe how the neural network learns the vector word representations for each word. In CBOW architecture the task is predicting the word given its context and in SG the task in predicting the context given the word.
+Due to a significant increase of quality using deep learning","17    Below is an instruction that describes a task....
+96    Below is an instruction that describes a task....
+Name: prompt, dtype: object","17                                                   No
+96    CBOW and Skip-gram methods in the FastText too...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Cradle cap is a skin condition that commonly affects infants, causing a thick, crusty buildup of skin oil on the scalp.  To prevent cradle cap, it’s important to regularly wash and moisturize the infant’s scalp, as well as avoid using harsh hair products or oils on the infant’s hair.  It’s also important to make sure the infant’s sleeping environment is properly ventilated, to minimize contact with moisture and humidity.  Finally, it’s important to avoid exposing the infant to excessive amounts of sunlight, as this can worsen cradle cap.
+🐂
+","59    Below is an instruction that describes a task....
+Name: prompt, dtype: object","59    Cradle cap is a skin condition that commonly a...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The mascots for the Generation 2 Pokemon games are Lugia, Ho-oh and Suicune
+🐂
+","90    Below is an instruction that describes a task....
+Name: prompt, dtype: object","90    The mascots for the Generation 2 Pokemon games...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+a plot summary is given brlow. it will be followedd by questions that ar e based on it. please answer the questions. 
+\summary: Lisa Piper (Drew Barrymore), an eleven-year-old girl from Cincinnati, Ohio, takes care of her siblings and cooks for her family. She has no time for toys, and refuses to be treated as a child. During a blizzard on Christmas Eve, Lisa is transported to Toyland. She arrives just before Mary Contrary (Jill Schoelen) is to be wedded to the unpleasant Barnaby Barnacle (Richard Mulligan), although Mary loves Barnaby's nephew, Jack Nimble (Keanu Reeves). Lisa stops the wedding and, with her new friends, finds out that Barnaby plans to take over Toyland. Lisa, Mary, Jack, and Georgie Porgie (Googy Gress) go to the kindly Toymaster (Pat Morita) for help, but he can only help them if Lisa really believes in toys. Barnaby confronts them and the Toymaster, finally showing his true colors, and steals a flask containing distilled evil that the Toymaster had been collecting, before leaving Lisa and company to be eaten by Trollog, a vulture-like monster with a single enchanted eye that Barnaby uses to spy on his enemies. They escape by blinding Trollog with paint and locking him in a chest, but are captured and imprisoned one by one in Barnaby's hidden fortress.
+Barnaby reveals that he had been creating an army of trolls to take over Toyland, and then attempts to corrupt his captives into being his servants","14    Below is an instruction that describes a task....
+Name: prompt, dtype: object","14    1. by the trees\n2. Tom and Mary\n3. to search...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+At each stop, the number of students on the bus is cut in half. Therefore, after 3 stops, the number of students on the bus is $48(\frac12)^3 = \frac{48}8 = \boxed{6}$.
+🐂
+","76    Below is an instruction that describes a task....
+Name: prompt, dtype: object","76    At each stop, the number of students on the bu...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Create a supportive environment
+Encourage innovation
+Acknowledge and learn from conflict
+Assign specific tasks
+Create incentives
+Foster independence
+🐂
+","7    Below is an instruction that describes a task....
+Name: prompt, dtype: object","7    Create a supportive environment\nEncourage inn...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+First, we recognize that $\frac{4}{3x^{-3}}$ can be rewritten as $\frac{4x^3}{3}$. Thus, we have  \begin{align*}
+\frac{4}{3x^{-3}} \cdot \frac{3x^{2}}{2} & = \frac{4x^3}{3} \cdot \frac{3x^2}{2} \\
+& = \frac{(4 \cdot 3)(x^3 \cdot x^2)}{3 \cdot 2} \\
+& = 2x^{3+2} \\
+& = \boxed{2x^5}.
+\end{align*}
+🐂
+","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The following are good songs a beginner can learn on guitar:
+
+- Smoke on the Water by Deep Purple
+- Brown Eyed Girl by Van Morrison
+- Heart of Gold by Neil Young
+- Seven Nation Army by The White Stripes
+- What's Up? by 4 Non Blondes
+- Wild Thing by The Troggs
+- Wonderwall by Oasis
+🐂
+","60    Below is an instruction that describes a task....
+Name: prompt, dtype: object","60    The following are good songs a beginner can le...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Of course! Oulu is a beautiful city, and there are many interesting sights to see there. Some suggestions include visiting the Oulu Cathedral, which is a beautiful medieval church, or taking a stroll around Oulu Bay, which has beautiful views of the ocean and coastline. You could also tour the Oulu Museum, which contains exhibits on the city’s history and culture, or visit Oulu Botanical Gardens, which are home to many beautiful plants and flowers. These are just a few ideas, though; you can also explore other attractions in the city, such as museums or nature preserves.
+🐂
+","36    Below is an instruction that describes a task....
+Name: prompt, dtype: object","36    Of course! Oulu is a beautiful city, and there...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+I could recommend you get a fruit basket, or a book of poetry, or flowers, or chocolate, or toys. But let’s do some thinking together about what we could do. We could find a “deep feeling” to give. What do you think of:
+
+  - Buying them a big bottle of red wine to go with a cheese board. You’ll be there, too, so it won’t be that uncomfortable.
+
+  - A crafting/
+🐂
+","70    Below is an instruction that describes a task....
+Name: prompt, dtype: object","70    I could recommend you get a fruit basket, or a...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+baed on this:
+Doctor UniverseBy CARL JACOBIGrannie Annie, who wrote science fiction under the nom de plume of Annabella C. Flowers, had stumbled onto a murderous plot more hair-raising than any she had ever concocted.
+ And the danger from the villain of the piece didn't worry her—I was the guy he was shooting at.
+ [Transcriber's Note: This etext was produced from Planet Stories Fall 1944.
+ Extensive research did not uncover any evidence that the U.S. copyright on this publication was renewed.]I was killing an hour in the billiard room of theSpacemen's Clubin Swamp City when the Venusian bellboy came and tapped me on the shoulder.
+ ""Beg pardon, thir,"" he said with his racial lisp, ""thereth thome one to thee you in the main lounge."" His eyes rolled as he added, ""A lady!"" A woman here...! TheSpacemen'swas a sanctuary, a rest club where in-coming pilots and crewmen could relax before leaving for another voyage. The rule that no females could pass its portals was strictly enforced.
+ I followed the bellhop down the long corridor that led to the main lounge. At the threshold I jerked to a halt and stared incredulously.
+ Grannie Annie!
+ There she stood before a frantically gesticulating desk clerk, leaning on her faded green umbrella. A little wisp of a woman clad in a voluminous black dress with one of those doily-like caps on her head, tied by a ribbon under her chin. Her high","82    Below is an instruction that describes a task....
+Name: prompt, dtype: object","82    Hunter-bird
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+102.2 degrees Fahrenheit
+🐂
+","13    Below is an instruction that describes a task....
+Name: prompt, dtype: object","13    102.2 degrees Fahrenheit
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+please answer the question following the story as concisely as possiblle. 
+\story: Republican Shakeout          This weekend's straw poll in Ames, Iowa, kicked off the 2000 presidential race and sorted out the Republican field. Everyone agrees that George W. Bush is the front-runner, that Steve Forbes is in second place, and that Dan Quayle, who finished back in the pack with Lamar Alexander, will soon join Alexander on the sidelines. But Ames failed to resolve the fate of the candidates who came in third and fourth--Elizabeth Dole and Gary Bauer--and the one who skipped Ames, John McCain. For these three, the post-game spin contest is crucial. Here's a playback of their takes on the straw poll results and a look ahead at their playbook of messages for the remainder of the race.                          Elizabeth Dole                                    Playback                                    1. Top three. Dole needed to get within striking distance of Bush and to seal off the rest of the pack behind her. On Meet the Press , Face the Nation , and Late Edition , she boasted that she had cracked ""the top three."" Pundits bought the three-winners line, treating Ames as a horse race (""win, place, and show"") and noting that ""no one's ever won the Republican nomination without finishing in the top three"" at Ames. Newspapers, cramped for space, confined their headlines to Bush, Forbes, and Dole. Though Dole's 14 percent was closer to Bauer's 9 than to Forbes' 21, she earned a ""solid third"" and a place among the leaders by crossing the ""double-digit","65    Below is an instruction that describes a task....
+81    Below is an instruction that describes a task....
+95    Below is an instruction that describes a task....
+Name: prompt, dtype: object","65    he's the only experienced political candidate ...
+81    1. 1839\n2. District Attorney\n3. From Cuba to...
+95    1. Harrison Bay\n2. Christopher\n3. lighthouse...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+here's a document:
+IntroductionWord embeddings, or vector representations of words, are an important component of Natural Language Processing (NLP) models and necessary for many downstream tasks. However, word embeddings, including embeddings commonly deployed for public use, have been shown to exhibit unwanted societal stereotypes and biases, raising concerns about disparate impact on axes of gender, race, ethnicity, and religion BIBREF0, BIBREF1. The impact of this bias has manifested in a range of downstream tasks, ranging from autocomplete suggestions BIBREF2 to advertisement delivery BIBREF3, increasing the likelihood of amplifying harmful biases through the use of these models.
+The most well-established method thus far for mitigating bias relies on projecting target words onto a bias subspace (such as a gender subspace) and subtracting out the difference between the resulting distances BIBREF0. On the other hand, the most popular metric for measuring bias is the WEAT statistic BIBREF1, which compares the cosine similarities between groups of words. However, WEAT has been recently shown to overestimate bias as a result of implicitly relying on similar frequencies for the target words BIBREF4, and BIBREF5 demonstrated that evidence of bias can still be recovered after geometric bias mitigation by examining the neighborhood of a target word among socially-biased words.
+In response to this, we propose an alternative framework for bias mitigation in word embeddings that approaches this problem from a probabilistic perspective. The motivation for this approach is two-fold. First, most popular word embedding algorithms are probabilistic at their core – i.e., they are trained (explicitly or implicitly BIBREF6)","45    Below is an instruction that describes a task....
+Name: prompt, dtype: object","45    Unanswerable
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The provided SQL query shows distinct first and last names for all customers with an account.
+🐂
+","43    Below is an instruction that describes a task....
+Name: prompt, dtype: object","43    The provided SQL query shows distinct first an...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+We start by completing the square: \begin{align*}
+-x^2 -6x +12 &= -(x^2 + 6x) + 12\\ &= -(x^2 + 6x + (6/2)^2 - (6/2)^2) + 12\\ &= -((x+3)^2 -3^2) + 12 \\&= -(x+3)^2 +3^2 + 12 \\&= -(x+3)^2 + 21.\end{align*}Since the square of a real number is at least 0, we have $(x+3)^2\ge 0$, so $-(x+3)^2 \le 0$.  Therefore, $-(x+3)^2 + 21$ is at most 21.  Since $(x+3)^2 =0$ when $x=-3$, this maximum of $21$ is achieved when $x= \boxed{-3}$.
+🐂
+","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+dog, cat, cat, dog, dog
+🐂
+","37    Below is an instruction that describes a task....
+Name: prompt, dtype: object","37    dog, cat, cat, dog, dog
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Let $d$ be the distance from Bill to the center of the Earth and $f$ be the gravitational force that the Earth exerts on him. Since $f$ is inversely proportional to $d^2$, $f\cdot d^2=k$ for some constant $k$. Since the force when Bill is on the surface of Earth is 600 Newtons, $k=600\cdot4000^2=9,\!600,\!000,000$. Therefore, if we let $x$ be the force that the Earth acts on  Bill with when he is on the Moon, $x\cdot240,\!000^2=960,\!000,\!000$ so $x=\boxed{\dfrac{1}{6}}$.
+
+Alternatively, the distance between Bill and the center of the Earth has been increased by a factor of 60, so the force has to be decreased by a factor of $60^2=3600$. Since $\frac{600}{3600}=\boxed{\frac{1}{6}}$, we get the same answer.
+���","73    Below is an instruction that describes a task....
+Name: prompt, dtype: object","73    Let $d$ be the distance from Bill to the cente...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Consider the three-digit arrangement, $\overline{aba}$. There are $10$ choices for $a$ and $10$ choices for $b$ (since it is possible for $a=b$), and so the probability of picking the palindrome is $\frac{10 \times 10}{10^3} = \frac 1{10}$. Similarly, there is a $\frac 1{26}$ probability of picking the three-letter palindrome.
+By the Principle of Inclusion-Exclusion, the total probability is
+$\frac{1}{26}+\frac{1}{10}-\frac{1}{260}=\frac{35}{260}=\frac{7}{52}\quad\Longrightarrow\quad7+52=\boxed{59}$
+🐂
+","75    Below is an instruction that describes a task....
+Name: prompt, dtype: object","75    Consider the three-digit arrangement, $\overli...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Storyline from IMDB member Toyama Kazuha================================================In 2007 July 7th, Vega Hotel (Kyoto) caught a fire and killed 2 people at 6/F with 7 people luckily escaped.Now it's 2009, these 7 survivors keep getting killed, with ""7-Circle"" near corpse, one by one.Firstly, Kogoro Mouri think all 7 plays Mahjong with victim and caused disputes but police found that none play mahjong.A disabled police checked 27-age ""Ryo Fukase"", who got 21-age girlfriend Risa, met at beika shop centre 6/F.Takagi suspect all 8 people queue at amusement theme park and disputed in queue...but (Beika 6/F) a stupid/dumb police dropped his police ID in front of Fukase Ryo.Fukase took Vermouth as hostage but Conan's soccer stun him off. Risa pierced Megure.Conan got Shiba Park as the final place 2 hrs before the police.Sonoko watch 8pm Tohto TV and saw Conan ran inside Tohto TV Tower (Kyoto). Sonoko dial Rachel.The beetle (Beatles) made Detective Boys rescue the actual real police superintendent.Rachel took a security guard to get up-tower.Rachel remember Shinichi Kudo, ""Do you know, Ran, max speed for bullet is 350km/second.""Finally Irish said to Conan that, he did not reveal Conan's identity ""Shinichi Kudo"" to Gin due to a deceased Black Organisation member","99    Below is an instruction that describes a task....
+Name: prompt, dtype: object","99    1. Black Organization needs a memory chip\n2. ...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+A group of elite mercenaries, the Expendables, are deployed to the Gulf of Aden off the coast of Somalia to halt local pirates from executing the hostages. The team consists of leader Barney Ross (Sylvester Stallone), former SAS soldier and blades specialist Lee Christmas (Jason Statham), martial artist Yin Yang (Jet Li), sniper Gunnar Jensen (Dolph Lundgren), weapons specialist Hale Caesar (Terry Crews) and demolitions expert Toll Road (Randy Couture). Jensen instigates a firefight, causing casualties for the pirates. Yang and Jensen fight over moral disagreements about hanging a pirate. Ross intervenes and fights with Jensen. As a result of his psychological problems, Ross reluctantly dismisses Jensen from the Expendables team.Ross and a rival mercenary Trench (Arnold Schwarzenegger), meet Mr. Church (Bruce Willis). He offers them a contract to overthrow a brutal dictator, General Garza (David Zayas), on Vilena, a fictional island in the Gulf of Mexico. Busy with other things, Trench tells Church to give the contract to Ross. Christmas visits his girlfriend, Lacy (Charisma Carpenter), whom he discovers has left him for another man named Paul. On Vilena, Ross and Christmas meet a local contact, Sandra (Gisele Itié), and drive to the vicinity of Garza's compound to look the situation over. A truckload of Garza's soldiers suddenly appear. When one of them grabs Sandra, he calls her the ""General's daughter."" He drags her to their","20    Below is an instruction that describes a task....
+Name: prompt, dtype: object","20    Who does Munroe go rogue from?\nWho open's fir...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The animals that travel through the water include: whale, shark, sea turtle, and octopus. The animals that travel through the air include: the eagle, hummingbird, blue jay, and robin.
+🐂
+","53    Below is an instruction that describes a task....
+Name: prompt, dtype: object","53    The animals that travel through the water incl...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Q: Keaton climbed a 30 feet ladder twenty times while working at the construction site. Reece, also working at the same site, climbed a ladder 4 feet shorter than Keaton's ladder 15 times. What's the total length of the ladders that both workers climbed in inches?
+A: If Keaton climbed his ladder twenty times, he covered a length of 30 * 20 = 600 feet. Reece's ladder, 4 feet shorter than Keaton's ladder, was 30 - 4 = 26 feet long. If Reece climbed the ladder 15 times, he covered a length of 15 * 26 = 390 feet. Keaton and Reece's total length covered while climbing the ladders is 390 + 600 = 990 feet. Since one foot is equal to 12 inches, the total length they climbed the ladders in inches is 12 * 990 = 11880 inches. The answer is 11880.
+Question: The flowers cost $9, the clay pot costs $20 more than the flower, and the bag of soil costs $2 less than the flower. How much does it cost to plant the flowers?
+Answer: The clay pot costs $20 + $9 = $29. The bag of soil costs $9 - $2 = $7. The cost to plant the flowers is $9 + $29 + $7 = $45. The answer is 45.
+[Question]Johns goes to the gym 3 times a week. He spends 1 hour each day lif","28    Below is an instruction that describes a task....
+Name: prompt, dtype: object","28    She works 8 hours a day for $18 per hour so sh...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Sure! Well, there are several Pantheons, but most people are probably referring to the Pantheon in Rome, Italy.  The Pantheon’s architecture dates to around 100 AD, although a church has existed on the site since the late 6th century.  The Pantheon was once a temple of ancient Rome, dedicated to the city’s pagan gods.  Then the site was renovated and turned into a Catholic Church, and later into a Catholic church.  In the 16th century, the Pantheon was damaged by a massive earthquake, and then it was restored into a church again, and later renovated again into a church and a Catholic basilica.  Finally, it was opened up as a museum in the 20th century.  I can go into more detail if you’d like!
+🐂
+","3    Below is an instruction that describes a task....
+Name: prompt, dtype: object","3    Sure! Well, there are several Pantheons, but m...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Bara is percussion, Igil is string.
+🐂
+","15    Below is an instruction that describes a task....
+Name: prompt, dtype: object","15    Bara is percussion, Igil is string.
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+[Question]Nick's cell phone was initially empty but was then charged for 45 minutes and has reached a 25% charge. How much longer must the cell phone be charged to reach 100% charge?
+[Answer]The ratio between the time charged and the time to be charged is 100 / 25 = 4. To reach 100%, the cell must be charged for 45 minutes * 4 = 180 minutes. Subtracting the 45 minutes that Jimmy already used to charge the cell phone, there are still 180 - 45 = 135 minutes of charging time left. The answer is 135.
+Q: Clinton buys a burger meal for lunch for $6.00 and up sizes his fries and drinks for $1.00 more.  If Clinton buys this same meal every day for 5 days, how much does he spend on lunch?
+A: The burger meal is $6.00 and to upsize the meal is $1.00 so 6 + 1 = $7.00. He spends $7.00 on lunch and after 5 days he spends 7 * 5 = $35.00. The answer is 35.
+Question: Colby harvested his mango trees, the total mangoes he harvested is 60 kilograms. He sold 20 kilograms to the market and sold the remaining half to his community. If each kilogram contains 8 mangoes, how many mangoes does he still have?
+Answer: He has 60 - 20 = 40 kilograms of mangoes","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+If $x^2 - x - 1$ is a factor of $ax^3 + bx^2 + 1,$ then the other factor must be linear, where the coefficient of $x$ is $a,$ and the constant coefficient is $-1.$  Thus
+\[(x^2 - x - 1)(ax - 1) = ax^3 + bx^2 + 1.\]Expanding, we get
+\[ax^3 - (a + 1) x^2 + (1 - a) x + 1 = ax^3 + bx^2 + 1.\]Matching coefficients, we get
+\begin{align*}
+-(a + 1) &= b, \\
+1 - a &= 0.
+\end{align*}Hence, $a = 1.$  Then $b = -(a + 1) = \boxed{-2}.$
+🐂
+","Series([], Name: prompt, dtype: object)","Series([], Name: response, dtype: object)",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Childhood friends Dan Walker (Kevin Zegers) and Joe Lynch (Shawn Ashmore), along with Dan's girlfriend Parker O'Neill (Emma Bell), spend a Sunday afternoon at a New England ski resort. Not wanting to pay full price for three ski lift tickets, Dan convinces Parker to bribe the ski lift attendant, Jason (Ed Ackerman), to let them all on the ski lift. On the way up, the ski lift shuts down, but starts back up again shortly. After spending all afternoon watching Parker fall over herself because she cannot snowboard, the guys are eager to take one last run down the mountain before they go home. However, it is now evening, and the ski resort decides to close early because a storm is moving in.The friends remind Jason of the bribe and convince him to let them on the ski lift one last time. At this point, the resort is almost deserted. Before the group gets all the way to the top, Jason is called into the boss's office and is replaced by a co-worker, Rifkin (Adam Johnson). As Jason leaves, he tells Rifkin that there are only three skiers left and then the ski lift can be shut down. Another set of three skiers comes down the mountain. When Rifkin sees them he shuts down the ski lift, stranding them in their ski lift chair far above the ground.The friends are first annoyed; they assume that there's another technical difficulty with the ski lift. A few minutes later, however, the lights go out, scaring the three skiers. Night has come and a snow storm moves in. After a while, a snowcat comes along and it seems as if the driver, Cody (Kane Hodder), is about to see them. However","67    Below is an instruction that describes a task....
+Name: prompt, dtype: object","67    Who replaces the ski lift attendant?\nWho deci...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+Please answer the question written at the end of this research paper.
+
+Paper:IntroductionTask-oriented chatbots are a type of dialogue generation system which tries to help the users accomplish specific tasks, such as booking a restaurant table or buying movie tickets, in a continuous and uninterrupted conversational interface and usually in as few steps as possible. The development of such systems falls into the Conversational AI domain which is the science of developing agents which are able to communicate with humans in a natural way BIBREF0. Digital assistants such as Apple's Siri, Google Assistant, Amazon Alexa, and Alibaba's AliMe are examples of successful chatbots developed by giant companies to engage with their customers.
+There are mainly two different ways to create a task-oriented chatbot which are either using set of hand-crafted and carefully-designed rules or use corpus-based method in which the chatbot can be trained with a relatively large corpus of conversational data. Given the abundance of dialogue data, the latter method seems to be a better and a more general approach for developing task-oriented chatbots. The corpus-based method also falls into two main chatbot design architectures which are pipelined and end-to-end architectures BIBREF1. End-to-end chatbots are usually neural networks based BIBREF2, BIBREF3, BIBREF4, BIBREF5 and thus can be adapted to new domains by training on relevant dialogue datasets for that specific domain. Furthermore, all sequence modelling methods can also be used in training end-to-end task-oriented chatbots. A sequence modelling method receives a sequence as input and predicts another sequence as output. For example in the case of machine translation the input could be a","72    Below is an instruction that describes a task....
+Name: prompt, dtype: object","72    No
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Yes, She Couldn't Say No is a 1954 rural comedy film which was later re-released as Beautiful but Dangerous.
+🐂
+","46    Below is an instruction that describes a task....
+Name: prompt, dtype: object","46    Yes, She Couldn't Say No is a 1954 rural comed...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+That sounds like a great idea! Drumming is a wonderful artistic and expressive activity, and also a great form of exercise and entertainment. There are many different types of drums with a wide range of sounds and uses, so it can be a very versatile and rewarding hobby. I'd recommend getting some basic instruction from a local teacher or drumming community, and also exploring a range of different types of music which utilize drums.  In terms of equipment, you will need to purchase a drum kit, which includes a variety of drums and percussion instruments. These can be acquired used from various sources, though new kits are also widely available.  In terms of further development, there are many avenues of musical exploration and performance which can be pursued, and also a wide range of specialized equipment and accessories available for drummers.  I hope this provides a good starting point for you, and please feel free to let me know if you have any further questions or concerns!
+🐂
+","56    Below is an instruction that describes a task....
+Name: prompt, dtype: object","56    That sounds like a great idea! Drumming is a w...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The Batman was introduced in 2013 with a black and blue bezel
+🐂
+","49    Below is an instruction that describes a task....
+Name: prompt, dtype: object","49    The Batman was introduced in 2013 with a black...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","<s> 
+You are Bessie. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks. You give concise responses to simple questions or statements, but provide thorough responses to more complex and open-ended questions. Answer the user's query as best as you can, and say ""I don't know"" if you don't know the answer.
+
+User:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+could you help summarize this idalog
+Person 1: Mom, I'm a little worried about college. I just don't know what to study. I don't know what my major should be.
+Person 2: That can be a difficult decision, John.
+Person 1: How can I decide?
+Person 2: Well, I'd start with your interests. It will help you if you study something that you are interested in. What do you like to read and learn about or do?
+Person 1: I guess I like dancing and helping people. Those are my interest I guess.
+Person 2: What do you mean by helping people?
+Person 1: If people have problems, I like to help solve them. Or if people are hurt, I like to try to do things that make them feel better.
+Person 2: It sounds like you might be interested in medicine then.
+Person 1: Uh... I don't know.
+Person 2: Another thing I think you should consider is the possible jobs you might get and how much money you want to make.
+Person 1: How do I figure that?
+Person 2: You can research different jobs at the library and there are reports and data on how well different jobs pay.
+Person 1: I want to have a well paid job so that I can have money to travel.
+Person 2: Well, there you go. Income is going to influence you most in your choice of nature. There is one other thing you should consider, too.
+Person 1: What's that?
+Person 2: You know, scholarships, then money given to you for college. You might want to pick a major that will allow you to get a special scholarship. I know you'll make the right decision","63    Below is an instruction that describes a task....
+Name: prompt, dtype: object","63    John asks his mom how to choose a major. Mom t...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+1. Dave Chapelle
+2. Adam Sandler
+3. Chris Rock
+4. Kevin Hart
+5. Aziz Ansari
+🐂
+","94    Below is an instruction that describes a task....
+Name: prompt, dtype: object","94    1. Dave Chapelle\n2. Adam Sandler\n3. Chris Ro...
+Name: response, dtype: object",False
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+Joanne Rowling a.k.a J.K.Rowling is the famous author of Harry Potter books.
+🐂
+","35    Below is an instruction that describes a task....
+Name: prompt, dtype: object","35    Joanne Rowling a.k.a J.K.Rowling is the famous...
+Name: response, dtype: object",True
+"{'test_loss': 1.825057029724121, 'test_runtime': 18.8543, 'test_samples_per_second': 5.304, 'test_steps_per_second': 0.689}","
+The exact cause of Sensory processing disorder is not known. However, it is known that the midbrain and brainstem regions of the central nervous system are early centers in the processing pathway for multisensory integration; these brain regions are involved in processes including coordination, attention, arousal, and autonomic function. After sensory information passes through these centers, it is then routed to brain regions responsible for emotions, memory, and higher level cognitive functions. Damage in any part of the brain involved in multisensory processing can cause difficulties in adequately processing stimuli in a functional way.
+🐂
+","87    Below is an instruction that describes a task....
+Name: prompt, dtype: object","87    The exact cause of Sensory processing disorder...
+Name: response, dtype: object",True
