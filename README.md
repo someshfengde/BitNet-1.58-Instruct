@@ -1,10 +1,13 @@
 # BitNet-1.58-Instruct
 
 📕 Resources.
-🔗 Blog Post: https://lnkd.in/d5YCRW4y
-🐱 GitHub Repo: https://lnkd.in/dKgjwFXk
-🐝 wandb dashboard: https://lnkd.in/de5myJ6G
-👨‍💻 Lightning Studio link: https://lnkd.in/d8Ji9FQh
+🔗 Blog Post: https://www.oxen.ai/blog/arxiv-dives-bitnet-1-58
+
+🐱 GitHub Repo: https://github.com/someshfengde/BitNet-1.58-Instruct
+
+🐝 wandb dashboard: https://wandb.ai/som/1bitllm_finetuning?nw=nwusersom
+
+👨‍💻 Lightning Studio link: https://lightning.ai/someshfengde/vision-model/studios/1-5bitllms-finetuning/code
 
 ### What's changed in this repo. 
 * Added wandb tracking
