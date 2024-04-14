@@ -7,7 +7,12 @@
 
 🐝 wandb dashboard: https://wandb.ai/som/1bitllm_finetuning?nw=nwusersom
 
-👨‍💻 Lightning Studio link: https://lightning.ai/someshfengde/vision-model/studios/1-5bitllms-finetuning/code
+👨‍💻 Lightning Studio link: https://lightning.ai/someshfengde/studios/1-5bitllms-finetuning
+
+Run this on the cloud    
+<a target="_blank" href="https://lightning.ai/someshfengde/studios/1-5bitllms-finetuning">
+  <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio"/>
+</a>
 
 ### What's changed in this repo. 
 * Added wandb tracking
