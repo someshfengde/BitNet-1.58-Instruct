@@ -15,7 +15,7 @@ def main():
     # prompt the model in a loop
     while True:
         prompt = input("🐂 > ")
-        prompt = AssistantPrompt({"prompt": prompt}).render()
+        prompt = AssistantPrompt({"prompt": "### Instruction \n " + prompt}).render()
         data = {"prompt": prompt, "answers": []}
         output = model.predict(data)
         print(f"Time: {output['time']}s")

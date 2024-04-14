@@ -2,7 +2,7 @@
 from bitnet.models.model import Model
 from transformers import LlamaTokenizer
 from transformers import TextStreamer
-
+import torch 
 from .stopping_criteria import StoppingTokenCriteria
 from .causal_lm import BitnetForCausalLM
 
@@ -17,6 +17,7 @@ class BitNetLLM(Model):
         self.model = BitnetForCausalLM.from_pretrained(self.model_name, device_map = 'auto')
     # Function to run the model on a single example
     def _predict(self, data):
+        device = "cuda" if torch.cuda.is_available() else "cpu"
         if not 'prompt' in data:
             raise ValueError("Prompt is required to run the model.")
 
@@ -26,14 +27,14 @@ class BitNetLLM(Model):
         stopping_criteria = StoppingTokenCriteria(stop_token="🐂", tokenizer=self.tokenizer)
 
         # Tokenize the data
-        model_inputs = self.tokenizer(prompt, return_tensors="pt").to("cuda")
+        model_inputs = self.tokenizer(prompt, return_tensors="pt").to(device)
 
         # Stream the results to the terminal so we can see it generating
-        # streamer = TextStreamer(self.tokenizer)
+        streamer = TextStreamer(self.tokenizer)
 
         generated_ids = self.model.generate(
             **model_inputs,
-            # streamer=streamer,
+            streamer=streamer,
             max_new_tokens=50,
             stopping_criteria=stopping_criteria
         )
